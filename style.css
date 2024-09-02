@@ -1,0 +1,89 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.Hero{
+    background-color: #1F2937;
+    color: #F9FAF8 ;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 75px;
+    padding-top: 25px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+    color:#E5E7EB;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.infor{
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.stuff{
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#i1{
+    border: dodgerblue solid 3px;
+}
+
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 150px 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    text-align: center;
+}
+.text{
+    font-weight: lighter;
+    color: #1F2937;
+}
+.box{
+    background-color: #3882f6;
+    margin: 100px;
+    border: #F9FAF8 solid 3px;
+    padding: 30px 100px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    gap: 52px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.Footer{
+    background-color:#1F2937;
+    padding: 40px;
+    text-align: center;
+    color: #E5E7EB;
+}
